@@ -1,0 +1,20 @@
+package print;
+
+public class Demo {
+
+	public static void main(String[] args){
+		
+		int b=10;
+		try{
+		return;
+		}
+		finally
+		{
+			System.out.println("hg");
+		}
+	
+		
+
+	}
+
+}

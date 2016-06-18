@@ -1,0 +1,34 @@
+
+public class RotatedStringDemo 
+{
+
+	public static void main(String[] args) 
+	 {
+		  char ch1[]={'s','t','r','i','n','g'};
+		  char new1[]={'r','i','n','g','s','t'};
+		  for (int i=0;i<ch1.length-1;i++)
+		{
+			char temp=ch1[0];
+			for (int j=0;j<ch1.length-1;j++)
+			{   
+				ch1[j]=ch1[j+1];
+				
+			}
+			ch1[ch1.length-1]=temp;
+			System.out.println(ch1);
+			if (ch1.equals(new1))
+			{
+				System.out.println("yes");
+				break;
+			}
+			else
+			{
+				
+			}
+			
+			
+		}
+
+	}
+
+}

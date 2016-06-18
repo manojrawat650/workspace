@@ -1,0 +1,24 @@
+package print;
+
+public class Demo {
+
+	public static void main(String[] args){
+		int a;
+		int b=10;
+		try{
+		System.out.println(a);
+		}
+		catch(Exception e)
+		{
+			
+		}
+		finally
+		{
+			System.out.println("hg");
+		}
+		System.out.println(b);
+		
+
+	}
+
+}

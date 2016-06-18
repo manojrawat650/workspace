@@ -1,0 +1,22 @@
+package print;
+
+public class Demo {
+
+	public static void main(String[] args){
+		Demo d=new Demo();
+			System.out.println(d.method());
+			}
+	public void method()
+	{
+		try{
+			System.out.println("asdf");
+			
+			}
+			finally
+			{
+				System.out.println("hg");
+			}
+		
+
+	}
+	}

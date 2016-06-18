@@ -1,0 +1,29 @@
+package print;
+
+import java.util.Scanner;
+
+public class Stairs {
+
+	public static void main(String[] args) {
+	   Scanner s=new Scanner(System.in);
+	   int n=s.nextInt();
+	   int x=n-1;
+       for (int i=0;i<n;i++)
+       {
+    	   int j=0;
+    	   while(j<n)
+    	   {
+    	   if(j<x)
+    	   {
+    		   System.out.println(" ");
+    	   }
+    	   else
+    	   {
+    		   System.out.println("#");
+    	   }
+    	   }
+    	   x--;
+       }
+	}
+
+}

@@ -1,0 +1,24 @@
+
+public class SecondLargestDemo {
+	public int getSecondLargest(int arr[])
+	{
+		int a[]={100,44,123,5,3,711,23,4,3,10};	
+		for (int i=1;i<=a.length-1;i++)
+		{
+			
+			if (a[0]<a[i])
+			{
+				a[1]=a[0];
+				a[0]=a[i];
+	
+	     	}
+			
+	    }
+		return(a[1]);   //num at a[1] will be the second largest
+	}
+	public static void main(String[] args) {
+		SecondLargestDemo s=new SecondLargestDemo();
+		int arr[]={1,23,2,5,3,67,100,2,0,9};
+		s.getSecondLargest(arr);
+   }
+}

@@ -1,0 +1,33 @@
+
+public class NestedTry {
+
+	public static void main(String[] args) {
+		try{
+			
+			try
+			{
+				int a=12/0;	
+			}
+			catch(ArrayIndexOutOfBoundsException e)
+			{
+				System.out.println(e);
+			}
+			try
+			{
+				int b[]=new int[4];
+				b[6]=10;
+			}
+			catch(ArrayIndexOutOfBoundsException e)
+			{
+				System.out.println(e);
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println("handled");
+		}
+		System.out.println("normal flow");
+
+	}
+
+}

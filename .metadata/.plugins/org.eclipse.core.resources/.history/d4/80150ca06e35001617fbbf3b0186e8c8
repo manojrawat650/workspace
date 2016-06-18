@@ -1,0 +1,33 @@
+package print;
+
+import java.util.*;
+
+public class Solution
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Set hs=new HashSet();
+		ArrayList ar=new ArrayList();
+		int t=sc.nextInt();
+		String s=null;
+		String st[];
+		int total=0;
+		sc.nextLine();
+		for (int i=0;i<t;i++)
+		{
+			s=sc.nextLine();
+			st=s.split(" ");
+			
+			if (st[0].length()>5 || st[1].length()>5)
+			{
+				System.exit(0);
+			}
+			hs.add(s);
+			ar.add(hs.size());
+		}
+		for (int i=0;i<ar.size();i++)
+		{
+	        System.out.println(ar.get(i));		
+		}
+   	}
+}

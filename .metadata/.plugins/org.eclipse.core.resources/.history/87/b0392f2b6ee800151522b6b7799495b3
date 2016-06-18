@@ -1,0 +1,20 @@
+
+public class SecondLargestDemo {
+	
+	public static void main(String[] args) {
+		int a[]={1,4,2,6,3,7,5,8,6,9,10};	
+		System.out.println(a.length-1);
+		for (int i=1;i<=a.length-1;i++)
+		{
+			
+			if (a[0]<a[i])
+			{
+				a[1]=a[0];
+				a[0]=a[i];
+	
+	     	}
+			
+	    }
+		System.out.println("Second largest number is : "+a[0]);
+   }
+}

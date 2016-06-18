@@ -1,0 +1,21 @@
+package print;
+
+public class Demo {
+
+	public static void main(String[] args){
+		Demo d=new Demo();
+			d.method();
+			}
+	public int method()
+	{
+		try{
+			return 1;
+			}
+			finally
+			{
+				System.out.println("hg");
+			}
+		
+
+	}
+	}
