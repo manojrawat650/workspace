@@ -1,0 +1,17 @@
+package Snippet;
+
+public class Text {
+Text()
+{
+	}
+public void dis()
+{
+	}
+
+}
+class Child extends Text
+{
+	Child c=new Text();
+      c.dis();
+	
+}

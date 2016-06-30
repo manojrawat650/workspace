@@ -1,0 +1,14 @@
+package print;
+
+public class ReverseArrayDemo {
+
+	public static void main(String[] args) {
+int arr[]=new int[7];
+arr={2,5,3,77,44,7,4};
+for (int i=0;i<arr.length;i++)
+{
+System.out.println(arr[i]);	
+}
+	}
+
+}

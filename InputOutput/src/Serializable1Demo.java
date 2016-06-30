@@ -1,6 +1,6 @@
 import java.io.*;
 public class Serializable1Demo implements Serializable{
-   String name;
+   char name;
    int num;
    static int i=10;
  

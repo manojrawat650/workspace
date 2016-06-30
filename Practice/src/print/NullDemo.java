@@ -1,25 +1,36 @@
 package print;
 
-import java.util.Scanner;
-
-public class NullDemo {
- public static void main(String[] args) {
-		Scanner s=new Scanner(System.in);
-		System.out.println("Enter something");
-		String st=s.next();
-		if ((st)==(null))
-		{
-			System.out.println("string is null");
-		}
-		else if (st.equals(""))
-		{
-			System.out.println("String is empty");
-		}
-		else
-		{
-			System.out.println("not null or empty");
-		}
-
+import java.util.*;
+class Parent 
+{Parent()
+	{
+	System.out.println("super constructor");
 	}
-
+public void method()
+{
+System.out.println("super method");
+		}
+	static
+	{
+		System.out.println("static parent");
+	}
+}
+public class NullDemo extends Parent{
+	NullDemo()
+	{
+		super.method();
+	System.out.println("child constructor");
+	
+	}
+	static
+	{
+		System.out.println("static child");
+	}
+	{
+		System.out.println("child initializer block");
+	}
+	public static void main(String[] args) {
+		System.out.println(System.getenv("classpath"));
+		NullDemo n=new NullDemo();
+	}
 }

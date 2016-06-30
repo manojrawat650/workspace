@@ -5,6 +5,7 @@
 		<item value="400" key="height"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="qualifyReferences"/>
 	</section>
 	<section name="RefactoringStatusDialog">
 		<item value="816" key="DIALOG_WIDTH"/>
@@ -14,5 +15,9 @@
 	<section name="RefactoringWizard.Extract Superclass">
 		<item value="600" key="width"/>
 		<item value="400" key="height"/>
+	</section>
+	<section name="ExtractTempWizard">
+		<item value="true" key="replaceOccurrences"/>
+		<item value="false" key="declareFinal"/>
 	</section>
 </section>
