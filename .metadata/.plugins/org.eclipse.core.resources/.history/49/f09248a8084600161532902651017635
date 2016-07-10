@@ -1,0 +1,23 @@
+package Snippet;
+
+import java.util.*;
+ class Note
+{
+     int run(int i)
+{
+	System.out.println("super");
+	return 1;
+	}
+}
+public class Text extends Note
+{
+	 void run(String i)
+	{
+		System.out.println("child");
+	}
+	public static void main(String args[])
+	{
+		Text n=new Text();
+		n.run(10);
+	}
+}

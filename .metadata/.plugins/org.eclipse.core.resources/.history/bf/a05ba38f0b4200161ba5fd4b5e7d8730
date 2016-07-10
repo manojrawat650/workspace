@@ -1,0 +1,46 @@
+import java.util.*;
+public class TwoStrings {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+          int n=sc.nextInt();
+          System.out.println(System.currentTimeMillis());
+          String arr[]=new String[n];
+          
+          for (int i=0;i<n;i++)
+          {
+        	  int flag=0;
+        	  char ch1[]=sc.next().toCharArray();
+        	  char ch2[]=sc.next().toCharArray();
+        	  for (int j=0;j<ch1.length;j++)
+        	  {
+        		  for (int k=0;k<ch2.length;k++)
+        		  {
+        			  if (ch1[j]==ch2[k])
+        			  {
+        				  arr[i]="YES";
+        			      flag=1;
+        			      break;
+        			  }
+        			  else if (j==ch1.length-1 && k==ch2.length-1)
+        			  {
+        				  arr[i]="NO";
+        			  }
+        		  }
+        		  
+        		  if (flag==1)
+        		  {
+        			  break;
+        		  }
+        	  }
+          }
+          sc.close();
+          for (String st:arr)
+          {
+        	  System.out.println(st);
+          }
+          System.out.println(System.currentTimeMillis());
+	}
+
+}

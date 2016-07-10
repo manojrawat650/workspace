@@ -1,0 +1,16 @@
+package java1;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		String s1="";
+		String s2="manoj";
+		StringBuffer s=new StringBuffer(s2);
+		System.out.println(s);
+		String s3=new String(s);
+		System.out.println(s3);
+		
+		
+	}
+
+}

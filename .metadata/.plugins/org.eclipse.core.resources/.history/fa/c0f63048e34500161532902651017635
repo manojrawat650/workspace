@@ -1,0 +1,18 @@
+package Snippet;
+
+
+public class Text
+{
+	public void fun()
+	{
+		
+		
+	}
+	public static void main(String args[])
+	{
+		Parent p=new Parent();
+	     p.a=10;
+	}
+	
+	
+}

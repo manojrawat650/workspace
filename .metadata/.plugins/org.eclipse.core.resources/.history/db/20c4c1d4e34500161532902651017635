@@ -1,0 +1,11 @@
+package Snippet;
+
+import java.util.*;
+public class Text
+{
+	ArrayList ar=new ArrayList();
+	ar.add(3);
+	ar.add(3);
+	ar.add(3);
+	
+}

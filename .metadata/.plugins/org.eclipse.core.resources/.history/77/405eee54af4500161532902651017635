@@ -1,0 +1,12 @@
+package Snippet;
+
+public class Parent 
+{
+	int a;  
+public void run()
+{
+	}
+public static void main(String args[])
+{
+	}
+}

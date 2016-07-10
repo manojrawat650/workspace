@@ -1,0 +1,14 @@
+package java1;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		String s1=null;
+		String s2=null;
+		
+		Long l=123l;
+		String s=l.toString();
+System.out.println(s);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;MyCalculator.java&apos; to &apos;SparseArrays.java&apos;&#x0D;&#x0A;- Original project: &apos;HackerRank&apos;&#x0D;&#x0A;- Original element: &apos;MyCalculator.java&apos;&#x0D;&#x0A;- Renamed element: &apos;SparseArrays.java&apos;" description="Rename compilation unit &apos;MyCalculator.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{MyCalculator.java" name="SparseArrays.java" references="false" stamp="1468149765147" version="1.0"/>
+</session>

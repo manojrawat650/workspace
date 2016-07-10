@@ -1,0 +1,22 @@
+package Snippet;
+
+import java.util.*;
+public class Text
+{
+	public static void main(String args[])
+	{	ArrayList<String> ar=new ArrayList<String>();
+	ar.add("asdf");
+	ar.add("asdff");
+	ArrayList<String> ar1=new ArrayList<String>();
+	ar1.add("aasdfsdf");
+	ar1.add("asdfasdff");
+	ar1.add(1,"manoj");
+	ar1.get(1);
+	ar=ar1;
+	ar.remove(1);
+	ar.get(1);
+	System.out.println(ar.get(1));
+
+	
+	}
+}

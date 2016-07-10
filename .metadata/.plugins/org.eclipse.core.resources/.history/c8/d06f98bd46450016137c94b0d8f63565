@@ -1,0 +1,49 @@
+package HackerEarth;
+import java.util.*;
+public class MillyAndChocolates {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+             int N=sc.nextInt();       //No of boxes
+             sc.nextLine();
+             String number[]=sc.nextLine().split(" ");   //N separated integers
+             ArrayList ar[]=new ArrayList[N];
+            for (int i=0;i<N;i++)
+            {
+            	ar[i]=new ArrayList();
+            	int a=0;
+            	if (i==0)
+            	{
+            	a=1;	
+            	}
+            	else
+            	{
+            	a=Integer.parseInt(number[i-1]);
+            	}
+            	int b=Integer.parseInt(number[i]);
+            	
+            	for (int j=a+1;j<=b;j++)
+            	{
+            		ar[i].add(j);
+            	}
+            }
+            int Q=sc.nextInt();
+            int array[]=new int[Q];
+            for (int i=0;i<Q;i++)
+            {
+            	int index=sc.nextInt();
+            	for (int j=0;j<N;j++)
+            	{
+            		if (ar[j].contains(index)==true)
+            		{
+            			array[0]=j+1;
+            		}
+            	}
+            }
+            for (int i=0;i<array.length;i++)
+            {
+            	System.out.println(array[i]);
+            }
+	}
+
+}
